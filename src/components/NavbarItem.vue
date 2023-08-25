@@ -1,16 +1,37 @@
 <template>
   <div id="nav">
-    <router-link id="logo-url" to="/">
-      <img id="logo" src="@/assets/m 1.png" :alt="alt">
-    </router-link>
+   <div id="logo-url">
+     <img id="logo" src="@/assets/m 1.png" :alt="alt">
+   </div>
+   <div class="container mt-3">
 
-       <router-link class="bot1" to="/">Fazer Pedido</router-link>
-      
+  <ul class="nav">
+    <li class="nav-item">
+      <p>pisos</p>
+    </li>
+    <li class="nav-item">
+      <p>Sobre Nós</p>
+    </li>
+    <li class="nav-item">
+      <p>Curriculo</p>
+    </li>
+  </ul>
+</div>
+</div>
 
-    <router-link class="bo2" to="/pedidos">Pedidos</router-link>
-    
-   
-  </div>
+
+<div > 
+  <p class="h1">
+     OS Melhores pisos
+  </p>
+  <div class="imgs">
+  <img src="src/img/png-transparent-gmail-computer-icons-gratis-gmail-angle-rectangle-triangle-thumbnail-removebg-preview 1.png" alt="a">
+  <img src="src/img/png-transparent-messaging-whatsapp-logos-icon-removebg-preview 1.png" alt="a">
+  <img src="src/img/png-transparent-messaging-whatsapp-logos-icon-removebg-preview 1.png" alt="a">
+</div>
+
+  <button class="button">Confira</button>
+</div>
 
 
 
@@ -22,20 +43,30 @@
 </script>
   
 <style scoped>
+
+
+
+.imgs{
+  margin-left: 95%;
+margin-right: 1%;
+color: #FFF;
+
+}
 #nav {
   background: linear-gradient(183deg, rgba(155, 155, 155, 0.54) 0%, rgba(217, 217, 217, 0.00) 100%);
   padding: 15px 50px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  width: 1905px;
+  width: 100%;
   height: 100px;
   flex-shrink: 0;
 }
 
-#nav #logo-url {
+ #logo-url {
   margin: auto;
   margin-left: 0;
+  
 }
 
 #logo {
@@ -43,7 +74,21 @@
   height: 70px;
 }
 
-router-link{
+.h1{
+  width: 300px;
+height: 198px;
+flex-shrink: 0;
+color: #FFF;
+font-family: Inter;
+font-size: 128px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-left: 250px;
+margin-top: 10%;
+}
+
+.nav-item{
 
   text-decoration: none;
   transition: .5s;
@@ -56,13 +101,23 @@ font-size: 32px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
-
-
+}
+.button{
+  width: 158px;
+height: 49px;
+flex-shrink: 0;
+background: #DF2A2A;
+margin-left: 30%;
+margin-top: 14%;
+color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
 }
 
-router-link:hover {
-  color: #FFF;
-}
+
 
 
 </style>
