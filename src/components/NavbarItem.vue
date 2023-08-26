@@ -20,14 +20,21 @@
 </div>
 
 
-<div > 
+<div> 
   <p class="h1">
-     OS Melhores pisos
+     OS Melho
+     res
+    pisos
   </p>
-  <div class="imgs">
-  <img src="src/img/png-transparent-gmail-computer-icons-gratis-gmail-angle-rectangle-triangle-thumbnail-removebg-preview 1.png" alt="a">
-  <img src="src/img/png-transparent-messaging-whatsapp-logos-icon-removebg-preview 1.png" alt="a">
-  <img src="src/img/png-transparent-messaging-whatsapp-logos-icon-removebg-preview 1.png" alt="a">
+
+  <div class="icon">
+    <img src="src\img\Ellipse 1.png" alt="a">
+    <img src="src\img\Ellipse 1.png" alt="a">
+    <img src="src\img\Ellipse 1.png" alt="a">
+    
+  <img class="img1" src="src/img/png-transparent-gmail-computer-icons-gratis-gmail-angle-rectangle-triangle-thumbnail-removebg-preview 1.png" alt="a">
+  <img class="img2" src="src/img/png-transparent-messaging-whatsapp-logos-icon-removebg-preview 1.png" alt="a">
+  <img class="img3" src="src\img\pngtree-telephone-line-icon-vector-png-image_1885973-removebg-preview 1.png" alt="a">
 </div>
 
   <button class="button">Confira</button>
@@ -44,14 +51,24 @@
   
 <style scoped>
 
-
-
-.imgs{
+.img1{
+margin-top: -223px;
+margin-left: 12%;
+}
+.img2{
+  margin-top: -150px;
+margin-left: 11%;
+}
+.img3{
+  margin-top: -450px;
+margin-left: 10%;
+}
+.icon{
   margin-left: 95%;
 margin-right: 1%;
-color: #FFF;
-
 }
+
+
 #nav {
   background: linear-gradient(183deg, rgba(155, 155, 155, 0.54) 0%, rgba(217, 217, 217, 0.00) 100%);
   padding: 15px 50px;
@@ -76,7 +93,7 @@ color: #FFF;
 
 .h1{
   width: 300px;
-height: 198px;
+height: 150px;
 flex-shrink: 0;
 color: #FFF;
 font-family: Inter;
@@ -107,8 +124,8 @@ line-height: normal;
 height: 49px;
 flex-shrink: 0;
 background: #DF2A2A;
-margin-left: 30%;
-margin-top: 14%;
+margin-left: 35%;
+margin-top: 13%;
 color: #FFF;
 font-family: Inter;
 font-size: 24px;
