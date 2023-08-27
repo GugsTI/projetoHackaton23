@@ -3,8 +3,8 @@
       <navbar-item />
       <div>
         <router-view></router-view>
-        <rodape-item />
-      </div>
+     <rodape-item />
+   </div>
      
     </div>
   </template>

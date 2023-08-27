@@ -1,10 +1,13 @@
+<!-- eslint-disable vue/multi-word-component-names -->
 <template>
   <div id="nav">
    <div id="logo-url">
      <img id="logo" src="@/assets/m 1.png" :alt="alt">
    </div>
-   <div class="container mt-3">
-
+      <div class="container mt-3">
+ 
+    
+     
   <ul class="nav">
     <li class="nav-item">
       <p>pisos</p>
@@ -14,8 +17,10 @@
     </li>
     <li class="nav-item">
       <p>Curriculo</p>
-    </li>
+    </li> 
   </ul>
+
+   
 </div>
 </div>
 
@@ -37,7 +42,10 @@
   <img class="img3" src="src\img\pngtree-telephone-line-icon-vector-png-image_1885973-removebg-preview 1.png" alt="a">
 </div>
 
-  <button class="button">Confira</button>
+
+   <button class="button"><a href="http://localhost:5174/">Confira</a></button>
+  
+ 
 </div>
 
 
@@ -50,7 +58,6 @@
 </script>
   
 <style scoped>
-
 .img1{
 margin-top: -223px;
 margin-left: 12%;
@@ -133,7 +140,17 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 }
-
+a { color: white; } 
+  
+  a:link {
+text-decoration:none;
+}
+a:visited {
+text-decoration:none;
+}
+a:hover {
+text-decoration:underline;
+}
 
 
 
