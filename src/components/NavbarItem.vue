@@ -33,13 +33,13 @@
   </p>
 
   <div class="icon">
-    <img src="src\img\Ellipse 1.png" alt="a">
-    <img src="src\img\Ellipse 1.png" alt="a">
-    <img src="src\img\Ellipse 1.png" alt="a">
+    <img src="src/img/Ellipse 1.png" alt="a">
+    <img src="src/img/Ellipse 1.png" alt="a">
+    <img src="src/img/Ellipse 1.png" alt="a">
     
-  <img class="img1" src="src/img/png-transparent-gmail-computer-icons-gratis-gmail-angle-rectangle-triangle-thumbnail-removebg-preview 1.png" alt="a">
-  <img class="img2" src="src/img/png-transparent-messaging-whatsapp-logos-icon-removebg-preview 1.png" alt="a">
-  <img class="img3" src="src\img\pngtree-telephone-line-icon-vector-png-image_1885973-removebg-preview 1.png" alt="a">
+  <img class="img1" src="src/img/email.png" alt="a">
+  <img class="img2" src="src/img/watszapp.png" alt="a">
+  <img class="img3" src="src/img/telephone.png" alt="a">
 </div>
 
 
