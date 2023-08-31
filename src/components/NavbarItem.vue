@@ -10,13 +10,13 @@
      
   <ul class="nav">
     <li class="nav-item">
-      <p>pisos</p>
+    <a href="#">pisos</a>
     </li>
     <li class="nav-item">
-      <p>Sobre Nós</p>
+      <a href="#">Sobre nós</a>
     </li>
     <li class="nav-item">
-      <p>Curriculo</p>
+      <a href="#">Currículo</a>
     </li> 
   </ul>
 
@@ -53,7 +53,7 @@
 
 </template>
   
-<script script>
+<script setup>
 
 </script>
   
