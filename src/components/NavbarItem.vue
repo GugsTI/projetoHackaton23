@@ -1,8 +1,7 @@
-<!-- eslint-disable vue/multi-word-component-names -->
 <template>
   <div id="nav">
    <div id="logo-url">
-     <img id="logo" src="@/assets/m 1.png" :alt="alt">
+     <img id="logo" src="@/assets/img/m1.png" :alt="alt">
    </div>
       <div class="container mt-3">
  
@@ -33,17 +32,17 @@
   </p>
 
   <div class="icon">
-    <img src="src/img/Ellipse 1.png" alt="a">
-    <img src="src/img/Ellipse 1.png" alt="a">
-    <img src="src/img/Ellipse 1.png" alt="a">
+    <img src="@/assets/img/Ellipse1.png" alt="a">
+    <img src="@/assets/img/Ellipse1.png" alt="a">
+    <img src="@/assets/img/Ellipse1.png" alt="a">
     
-  <img class="img1" src="src/img/email.png" alt="a">
-  <img class="img2" src="src/img/watszapp.png" alt="a">
-  <img class="img3" src="src/img/telephone.png" alt="a">
+  <img class="img1" src="@/assets/img/email.png" alt="a">
+  <img class="img2" src="@/assets/img/watszapp.png" alt="a">
+  <img class="img3" src="@/assets/img/telephone.png" alt="a">
 </div>
 
 
-   <button class="button"><a href="http://localhost:5174/">Confira</a></button>
+   <button class="button"><a href="/">Confira</a></button>
   
  
 </div>

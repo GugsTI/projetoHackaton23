@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 import { createRouter, createWebHistory } from 'vue-router'
 import PisosItem from '../views/PisosItem.vue'
 

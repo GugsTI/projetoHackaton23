@@ -2,7 +2,7 @@
 <template>
     <div id="nav">
    <div id="logo-url">
-     <img id="logo" src="@/assets/m 1.png" :alt="alt">
+     <img id="logo" src="@/assets/img/m1.png" :alt="alt">
    </div>
       <div class="container mt-3">
  
@@ -28,7 +28,6 @@
   
   
 <script setup>
-
 
 </script>
   
