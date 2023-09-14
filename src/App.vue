@@ -1,6 +1,7 @@
 <template>
     <div>
       <navbar-item />
+      <Home-item></Home-item>
       <div>
         <router-view></router-view>
      <rodape-item />
@@ -11,6 +12,7 @@
   
   
 <script setup>
+import HomeItem from './components/Home-item.vue';
 import NavbarItem from './components/NavbarItem.vue'
 import RodapeItem from './components/RodapeItem.vue'
 
